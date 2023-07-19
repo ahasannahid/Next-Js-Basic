@@ -1,4 +1,5 @@
 import DashBoardLayout from "../../components/Layouts/DashBoardLayout";
+import RootLayout from "../../components/Layouts/RootLayout";
 
 const AdminPage = () => {
     return (
@@ -10,10 +11,15 @@ const AdminPage = () => {
 
 export default AdminPage;
 
-AdminPage.getLayout = function getLayOut(page){
+AdminPage.getLayout = function getLayOut(page) {
     return (
-        <DashBoardLayout>
-            {page}
-        </DashBoardLayout>
+        // <DashBoardLayout>
+        //     {page}
+        // </DashBoardLayout>
+        <RootLayout>
+            <DashBoardLayout>
+                {page}
+            </DashBoardLayout>
+        </RootLayout>
     )
 }
