@@ -1,4 +1,4 @@
-import DashBoardLayout from "../../components/Layouts/DashBoardLayout";
+import DashBoardLayout from "@/components/Layouts/DashBoardLayout";
 
 const DashBoardPage = () => {
     return (
