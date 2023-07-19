@@ -1,5 +1,3 @@
-
-
 const NewsPage = () => {
     return (
         <div>
