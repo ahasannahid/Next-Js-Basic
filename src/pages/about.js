@@ -10,7 +10,7 @@ const AboutPage = () => {
 
 export default AboutPage;
 
-AboutPage.getLayout = function getLayout(page){
+AboutPage.getLayout = function getLayout(page) {
     return (
         <RootLayout>
             {page}
